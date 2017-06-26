@@ -9,6 +9,8 @@ import javax.persistence.Table;
 @Table(name="student")
 public class Student {
 	
+	//Entity table for student
+	
 	@Id
 	@Column(name="id")
 	private int id;
